@@ -11,6 +11,7 @@
 		84B1FBE429B5F7A400058796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1FBE329B5F7A400058796 /* ContentView.swift */; };
 		84B1FBE629B5F7A500058796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B1FBE529B5F7A500058796 /* Assets.xcassets */; };
 		84B1FBE929B5F7A500058796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B1FBE829B5F7A500058796 /* Preview Assets.xcassets */; };
+		84B1FBF229B5F7EE00058796 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1FBF129B5F7EE00058796 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		84B1FBE329B5F7A400058796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		84B1FBE529B5F7A500058796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B1FBE829B5F7A500058796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B1FBF129B5F7EE00058796 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		84B1FBE029B5F7A400058796 /* CountDownTimer SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				84B1FBF129B5F7EE00058796 /* ContentViewModel.swift */,
 				84B1FBE129B5F7A400058796 /* CountDownTimer_SwiftUIApp.swift */,
 				84B1FBE329B5F7A400058796 /* ContentView.swift */,
 				84B1FBE529B5F7A500058796 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B1FBF229B5F7EE00058796 /* ContentViewModel.swift in Sources */,
 				84B1FBE429B5F7A400058796 /* ContentView.swift in Sources */,
 				84B1FBE229B5F7A400058796 /* CountDownTimer_SwiftUIApp.swift in Sources */,
 			);
